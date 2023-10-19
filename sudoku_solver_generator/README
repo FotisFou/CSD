@@ -1,0 +1,4 @@
+first, run the makefile to compile the underlying code.Then you can generate
+a sudoku using: $ ./sudoku -g 10 > sudoku.txt to generate a sudoku and store
+it in a txt file.Then, you can check if it has a unique solution using:
+$ ./sudoku -c < sudoku.txt
